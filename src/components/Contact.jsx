@@ -1,4 +1,4 @@
-export default function Contact() {
+export  function Contact() {
   // function showContacts() {
   //     contact_list.innerHTML = ''
   //     for (let i = 0; i < contacts.length; i++) {
