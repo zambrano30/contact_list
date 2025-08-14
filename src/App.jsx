@@ -1,16 +1,9 @@
-
-import './App.css'
-
 function App() {
-  
-
   return (
     <>
-      
-      <h1>Todo funciona bien</h1>
-      
+      <h1 className="text-2xl">Todo funciona bien</h1>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
