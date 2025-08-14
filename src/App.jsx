@@ -1,7 +1,11 @@
+import Contact from "./components/contact";
+
 function App() {
   return (
     <>
-      <h1 className="text-2xl">Todo funciona bien</h1>
+      <div className="grid place-items-center">
+        <Contact />
+      </div>
     </>
   );
 }
