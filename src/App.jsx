@@ -1,20 +1,12 @@
-
 import Contact from "./components/contact";
-
+import { Modal } from "./components/Modal";
 function App() {
   return (
     <>
       <div className="grid place-items-center">
         <Contact />
+        <Modal />
       </div>
-
-import { Modal } from "./components/Modal";
-function App() {
-  return (
-    <>
-      <h1 className="text-2xl">Todo funciona bien</h1>
-      <Modal/>
-
     </>
   );
 }
